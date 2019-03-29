@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    background-color: #2E282A;font-family: 'Nanum Gothic', sans-serif;
+}
+
+h2{font-family: 'Open Sans', sans-serif;}
+
+header > img {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+a > img {margin:0;}
+
+.navContainer {
+    position: static;
+    margin: 0px;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    background-image: linear-gradient(#2E282A, #603A40);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px
+}
+
+
+.navContainer > div {
+    background-color: #533E2D;
+    justify-content: center;
+    width: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 10px;
+    background-image: linear-gradient(#2E282A, #603A40);
+    border: 5px;
+    border-color: aqua;
+}
+
+.navContainer > div:hover {
+    background-image: linear-gradient(#603A40, #EDB88B);
+
+}
+
+
+img {
+    width: 80%;
+    margin: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header > img {
+    width: 100%;
+}
+
+.mainArea {
+    padding: 0px;
+    margin: 2%;
+    background-color: #CD5334;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mainArea > div {
+    margin: 3%;
+    background-color: #EDB88B;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mainArea > div > div {
+    margin: 2%;
+    padding: 20px;
+    background-color: #FAD8D6;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chatbox {
+    display: none;
+}
+
+.sidead {
+    display: none;
+}
+
+p {
+    font-size: 12px;
+}
+
+@media only screen and (min-width:768px) {
+    p {
+        font-size: 15px;
+    }
+
+    .mainArea {
+        margin: auto;
+        margin-top: 3%;
+        padding: 20px;
+        width: 670px;
+        background-color: #CD5334;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+
+
+@media only screen and (min-width:1024px) {
+
+    p {
+        font-size: 18px;
+    }
+
+    .mainflex {
+        display: flex;
+    }
+
+    aside {
+        width: 200px;
+        margin-right: auto;
+        margin-top: 3%;
+        padding: 20px;
+        background-color: #CD5334;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    aside > div {
+        margin: 0px;
+        background-color: #EDB88B;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    aside > div > div {
+        margin: 2%;
+        background-color: #FAD8D6;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .chatbox {
+        display: inline;
+        margin: 0px;
+        width: 192px;
+    }
+
+    .mainArea {
+        margin: auto;
+        margin-top: 3%;
+        margin-right: 3%;
+        padding: 20px;
+        width: 670px;
+        background-color: #CD5334;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .sidead {
+        display: block;
+        width: 80%;
+        height: 600px;
+    }
+
+}
